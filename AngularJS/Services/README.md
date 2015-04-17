@@ -15,7 +15,7 @@ It gives you the UserAgent of the device
 > 	var userAgent = DeviceDetector.isMobile();
 
 ## WebStorage
-1. SessionStorage
+1.	SessionStorage
 An easy way to manage the sessionStorage
 * Use:
 > import 'SessionStorage'
@@ -23,13 +23,12 @@ An easy way to manage the sessionStorage
 > 	SessionStorage.setItem(key,value);
 > 	SessionStorage.removeItem(key);
 
-2. LocalStorage
+1.	LocalStorage
 An easy way to manage the localStorage
 * Use:
 > import 'LocalStorage'
-
-> 	LocalStorage.getItem(key);
-
-> 	LocalStorage.setItem(key,value);
-
-> 	LocalStorage.removeItem(key);
+| Function name        | Description                           |
+| -------------------- | ------------------------------------- |
+| `getItem(key)`       | __Get__ the selected item by key.     |
+| `setItem(key,value)` | __Set__ the value item by key.        |
+| `removeItem(key)`    | __Remove__ the selected item by key.  |
