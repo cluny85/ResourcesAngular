@@ -3,6 +3,7 @@ All the services listed and how to used
 
 ## base64converter
 An easy way to encode and decode
+
  * Use:
 
 > import the 'Base64Service'
@@ -12,7 +13,9 @@ An easy way to encode and decode
 > 	var outputDec = Base64Service.decode(input);
 
 ## DeviceDetector
+
 It gives you the UserAgent of the device
+
  * Use:
 
 > import 'DeviceDetector'
@@ -21,8 +24,10 @@ It gives you the UserAgent of the device
 
 ## WebStorage
 1.	SessionStorage
+
 An easy way to manage the sessionStorage
-* Use:
+
+ * Use:
 
 > import 'SessionStorage'
 
@@ -33,8 +38,10 @@ An easy way to manage the sessionStorage
 > 	SessionStorage.removeItem(key);
 
 1.	LocalStorage
+
 An easy way to manage the localStorage
-* Use:
+
+ * Use:
 
 > import 'LocalStorage'
 
